@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ua">
+    <head>
+        <title>Розширений пошук Google</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+      <a href="search.html">
+        <img class="mini-logo" src="./img/Google_2015_logo.svg.png" alt="Google Logo">
+      </a>
+
+        <div class="search-form">
+            <form action="https://www.google.com/search" method="GET">
+                <label for="all-words">Знайти сторінки із... "усіма цими словами":</label>
+                <input type="text" name="as_q" id="all-words" class="search-input"  autocomplete="off"><br>
+        
+                <label for="exact-phrase">Знайти сторінки з... "саме цим словом або фразою":</label>
+                <input type="text" name="as_epq" id="exact-phrase" class="search-input"  autocomplete="off"><br>
+        
+                <label for="any-words">Знайти сторінки з... "будь-яким із цих слів":</label>
+                <input type="text" name="as_oq" id="any-words" class="search-input"  autocomplete="off"><br>
+        
+                <label for="none-words">Знайти сторінки з... "жодне з цих слів":</label>
+                <input type="text" name="as_eq" id="none-words" class="search-input" autocomplete="off"><br>
+
+                <div class="input-buttons">
+                  <input class="input-submit" type="submit" value="Розширений пошук">
+              </div>
+            </form>
+        </div>
+
+        <div class="right-links">
+          <a href="search.html" class="link">Пошук Google</a>
+          <a href="image_search.html" class="link">Зображення</a>
+        </div>
+    </body>
+</html>
+
